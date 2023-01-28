@@ -16,10 +16,7 @@ function App() {
   const [filteredTodos, setFilteredTodos] = useState([]);
 
 
-  //USE EFFECT
-  useEffect(() => {
-    getLocalTodos();
-  }, []);
+
 
   //USE EFFECT
   useEffect(() => {
